@@ -160,11 +160,11 @@ endif
 if g:kolor_italic==0
     highlight Comment         guifg=#808080    guibg=NONE   gui=none
     highlight Constant        guifg=#e6987a    guibg=NONE   gui=none
-    highlight String          guifg=#ad8788    guibg=NONE   gui=none
+    highlight String          guifg=#7eaefd    guibg=NONE   gui=none
 else
     highlight Comment         guifg=#808080    guibg=NONE   gui=italic
     highlight Constant        guifg=#e6987a    guibg=NONE   gui=italic
-    highlight String          guifg=#ad8788    guibg=NONE   gui=italic
+    highlight String          guifg=#7eaefd    guibg=NONE   gui=italic
 endif
 if g:kolor_underlined==0
   highlight Underlined      guifg=#7eaefd    guibg=NONE   gui=none
