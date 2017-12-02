@@ -74,9 +74,9 @@ if !exists("g:kolor_alternative_matchparen")
   let g:kolor_alternative_matchparen=0
 endif
 
-highlight Normal          guifg=#c6c6c6    guibg=#232321    gui=none
-highlight SpecialKey      guifg=#598bfd    guibg=NONE       gui=none
-highlight NonText         guifg=#598bfd    guibg=#232321    gui=none
+highlight Normal          guifg=#c6c6c6    guibg=#2e2d2b    gui=none
+highlight SpecialKey      guifg=#7eaefd    guibg=NONE       gui=none
+highlight NonText         guifg=#7eaefd    guibg=#2e2d2b    gui=none
 highlight Directory       guifg=#e6987a    guibg=NONE       gui=none
 highlight IncSearch       guifg=#000000    guibg=#ff5fd7    gui=none
 highlight LineNr          guifg=#808080    guibg=#242322    gui=none
@@ -90,19 +90,19 @@ highlight Folded          guifg=#8787af    guibg=#242322    gui=none
 highlight FoldColumn      guifg=#8787af    guibg=#242322    gui=none
 highlight DiffAdd         guifg=NONE       guibg=#005154    gui=none
 highlight DiffChange      guifg=NONE       guibg=#4f3598    gui=none
-highlight DiffDelete      guifg=#ff429b    guibg=#72323f    gui=none
+highlight DiffDelete      guifg=#d96e8a    guibg=#72323f    gui=none
 highlight DiffText        guifg=#000000    guibg=#75d7d8    gui=none
-highlight SignColumn      guifg=#808080    guibg=#232321    gui=none
+highlight SignColumn      guifg=#808080    guibg=#2e2d2b    gui=none
 highlight Conceal         guifg=#c6c6c6    guibg=NONE       gui=none
-highlight SpellBad        guifg=NONE       guibg=NONE       gui=undercurl    guisp=#ff429b
+highlight SpellBad        guifg=NONE       guibg=NONE       gui=undercurl    guisp=#d96e8a
 highlight SpellCap        guifg=NONE       guibg=NONE       gui=undercurl    guisp=#75d7d8
-highlight SpellRare       guifg=NONE       guibg=NONE       gui=undercurl    guisp=#5df967
+highlight SpellRare       guifg=NONE       guibg=NONE       gui=undercurl    guisp=#8cd991
 highlight SpellLocal      guifg=NONE       guibg=NONE       gui=undercurl    guisp=#dbc570
 highlight Pmenu           guifg=#c6c6c6    guibg=#242322    gui=none
-highlight PmenuSel        guifg=#000000    guibg=#598bfd    gui=none
+highlight PmenuSel        guifg=#000000    guibg=#7eaefd    gui=none
 highlight PmenuSbar       guifg=#ff5fd7    guibg=#262626    gui=none
-highlight PmenuSbar       guifg=#ff5fd7    guibg=#232321    gui=none
-highlight PmenuThumb      guifg=#232321    guibg=#ff5fd7    gui=none
+highlight PmenuSbar       guifg=#ff5fd7    guibg=#2e2d2b    gui=none
+highlight PmenuThumb      guifg=#2e2d2b    guibg=#ff5fd7    gui=none
 highlight TabLine         guifg=#808080    guibg=#242322    gui=none
 highlight TablineSel      guifg=#000000    guibg=#9e9e9e    gui=none
 highlight TablineFill     guifg=#808080    guibg=#242322    gui=none
@@ -119,18 +119,18 @@ highlight Function        guifg=#88da77    guibg=NONE       gui=none
 highlight htmlEndTag      guifg=#88da77    guibg=NONE       gui=none
 highlight xmlEndTag       guifg=#88da77    guibg=NONE       gui=none
 if g:kolor_bold==0
-  highlight ErrorMsg        guifg=#ff429b    guibg=NONE       gui=none
+  highlight ErrorMsg        guifg=#d96e8a    guibg=NONE       gui=none
   highlight Search          guifg=#ff8901    guibg=NONE       gui=none
-  highlight MoreMsg         guifg=#5df967    guibg=NONE       gui=none
+  highlight MoreMsg         guifg=#8cd991    guibg=NONE       gui=none
   highlight ModeMsg         guifg=#e2e2e2    guibg=NONE       gui=none
   highlight CursorLineNr    guifg=#e2e2e2    guibg=#383734    gui=none
   highlight Question        guifg=#75d7d8    guibg=NONE       gui=none
   highlight WarningMsg      guifg=#ff5fd7    guibg=NONE       gui=none
-  highlight Statement       guifg=#ff429b    guibg=NONE       gui=none
+  highlight Statement       guifg=#d96e8a    guibg=NONE       gui=none
   highlight Type            guifg=#a080ea    guibg=NONE       gui=none
-  highlight Error           guifg=#ff429b    guibg=NONE       gui=none
+  highlight Error           guifg=#d96e8a    guibg=NONE       gui=none
   highlight Todo            guifg=#75d7d8    guibg=NONE       gui=none
-  highlight Keyword         guifg=#ff429b    guibg=NONE       gui=none
+  highlight Keyword         guifg=#d96e8a    guibg=NONE       gui=none
   highlight Title           guifg=#a080ea    guibg=NONE       gui=none
   if g:kolor_alternative_matchparen==0
     highlight MatchParen      guifg=#2e2c29    guibg=#ff5fd7    gui=none
@@ -138,18 +138,18 @@ if g:kolor_bold==0
     highlight MatchParen      guifg=#2e2c29    guibg=#9e9e9e    gui=none
   endif
 else
-  highlight ErrorMsg        guifg=#ff429b    guibg=NONE       gui=bold
+  highlight ErrorMsg        guifg=#d96e8a    guibg=NONE       gui=bold
   highlight Search          guifg=#ff8901    guibg=NONE       gui=bold
-  highlight MoreMsg         guifg=#5df967    guibg=NONE       gui=bold
+  highlight MoreMsg         guifg=#8cd991    guibg=NONE       gui=bold
   highlight ModeMsg         guifg=#e2e2e2    guibg=NONE       gui=bold
   highlight CursorLineNr    guifg=#e2e2e2    guibg=#383734    gui=bold
   highlight Question        guifg=#75d7d8    guibg=NONE       gui=bold
   highlight WarningMsg      guifg=#ff5fd7    guibg=NONE       gui=bold
-  highlight Statement       guifg=#ff429b    guibg=NONE       gui=bold
+  highlight Statement       guifg=#d96e8a    guibg=NONE       gui=bold
   highlight Type            guifg=#a080ea    guibg=NONE       gui=bold
-  highlight Error           guifg=#ff429b    guibg=NONE       gui=bold
+  highlight Error           guifg=#d96e8a    guibg=NONE       gui=bold
   highlight Todo            guifg=#75d7d8    guibg=NONE       gui=bold
-  highlight Keyword         guifg=#ff429b    guibg=NONE       gui=bold
+  highlight Keyword         guifg=#d96e8a    guibg=NONE       gui=bold
   highlight Title           guifg=#a080ea    guibg=NONE       gui=bold
   if g:kolor_alternative_matchparen==0
     highlight MatchParen      guifg=#2e2c29    guibg=#ff5fd7    gui=bold
@@ -160,16 +160,16 @@ endif
 if g:kolor_italic==0
     highlight Comment         guifg=#808080    guibg=NONE   gui=none
     highlight Constant        guifg=#e6987a    guibg=NONE   gui=none
-    highlight String          guifg=#598bfd    guibg=NONE   gui=none
+    highlight String          guifg=#7eaefd    guibg=NONE   gui=none
 else
     highlight Comment         guifg=#808080    guibg=NONE   gui=italic
     highlight Constant        guifg=#e6987a    guibg=NONE   gui=italic
-    highlight String          guifg=#598bfd    guibg=NONE   gui=italic
+    highlight String          guifg=#7eaefd    guibg=NONE   gui=italic
 endif
 if g:kolor_underlined==0
-  highlight Underlined      guifg=#598bfd    guibg=NONE   gui=none
+  highlight Underlined      guifg=#7eaefd    guibg=NONE   gui=none
 else
-  highlight Underlined      guifg=#598bfd    guibg=NONE   gui=underline
+  highlight Underlined      guifg=#7eaefd    guibg=NONE   gui=underline
 endif
 
 if &t_Co > 255
