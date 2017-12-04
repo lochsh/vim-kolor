@@ -173,25 +173,25 @@ else
 endif
 
 if &t_Co > 255
-  highlight Normal          ctermfg=251     ctermbg=235     cterm=none
+  highlight Normal          ctermfg=251     ctermbg=234     cterm=none
   highlight SpecialKey      ctermfg=75     ctermbg=none    cterm=none
-  highlight NonText         ctermfg=75     ctermbg=235     cterm=none
+  highlight NonText         ctermfg=75     ctermbg=234     cterm=none
   highlight Directory       ctermfg=180     ctermbg=none    cterm=none
   highlight IncSearch       ctermfg=0       ctermbg=206     cterm=none
-  highlight LineNr          ctermfg=244     ctermbg=235     cterm=none
+  highlight LineNr          ctermfg=244     ctermbg=234     cterm=none
   highlight StatusLine      ctermfg=0       ctermbg=247     cterm=none
   highlight StatusLineNC    ctermfg=247     ctermbg=238     cterm=none
   highlight VertSplit       ctermfg=238     ctermbg=238     cterm=none
   highlight Visual          ctermfg=254     ctermbg=240     cterm=none
   highlight VisualNOS       ctermfg=254     ctermbg=none    cterm=underline
   highlight WildMenu        ctermfg=0       ctermbg=80      cterm=none
-  highlight Folded          ctermfg=103     ctermbg=235     cterm=none
-  highlight FoldColumn      ctermfg=103     ctermbg=235     cterm=none
+  highlight Folded          ctermfg=103     ctermbg=234     cterm=none
+  highlight FoldColumn      ctermfg=103     ctermbg=234     cterm=none
   highlight DiffAdd         ctermfg=none    ctermbg=23      cterm=none
   highlight DiffChange      ctermfg=none    ctermbg=56      cterm=none
   highlight DiffDelete      ctermfg=162     ctermbg=96      cterm=none
   highlight DiffText        ctermfg=0       ctermbg=80      cterm=none
-  highlight SignColumn      ctermfg=244     ctermbg=235     cterm=none
+  highlight SignColumn      ctermfg=244     ctermbg=234     cterm=none
   highlight Conceal         ctermfg=251     ctermbg=none    cterm=none
   highlight SpellBad        ctermfg=162     ctermbg=none    cterm=underline
   highlight SpellCap        ctermfg=80      ctermbg=none    cterm=underline
@@ -201,9 +201,9 @@ if &t_Co > 255
   highlight PmenuSel        ctermfg=0       ctermbg=75     cterm=none
   highlight PmenuSbar       ctermfg=206     ctermbg=235     cterm=none
   highlight PmenuThumb      ctermfg=235     ctermbg=206     cterm=none
-  highlight TabLine         ctermfg=244     ctermbg=235     cterm=none
+  highlight TabLine         ctermfg=244     ctermbg=234     cterm=none
   highlight TablineSel      ctermfg=0       ctermbg=247     cterm=none
-  highlight TablineFill     ctermfg=244     ctermbg=235     cterm=none
+  highlight TablineFill     ctermfg=244     ctermbg=234     cterm=none
   highlight CursorColumn    ctermfg=none    ctermbg=236     cterm=none
   highlight CursorLine      ctermfg=none    ctermbg=236     cterm=none
   highlight ColorColumn     ctermfg=none    ctermbg=236     cterm=none
@@ -252,9 +252,9 @@ if &t_Co > 255
     highlight Keyword         ctermfg=162     ctermbg=none    cterm=bold
     highlight Title           ctermfg=141     ctermbg=none    cterm=bold
     if g:kolor_alternative_matchparen==0
-      highlight MatchParen      ctermfg=235     ctermbg=206     cterm=bold
+      highlight MatchParen      ctermfg=234     ctermbg=206     cterm=bold
     else
-      highlight MatchParen      ctermfg=235     ctermbg=247     cterm=bold
+      highlight MatchParen      ctermfg=234     ctermbg=247     cterm=bold
     endif
   endif
   if g:kolor_underlined==0
